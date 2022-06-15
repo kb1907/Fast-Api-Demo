@@ -1,0 +1,4 @@
+catboost
+fastapi
+uvicorn
+pytest
