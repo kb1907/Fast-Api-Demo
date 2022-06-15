@@ -43,8 +43,8 @@ git add . && git commit -m "update Readme.md"
 pushing changes to new repo
 
 ```bash
+git remote add origin git@github.com:kb1907/Fast-Api-Demo.git
 git branch -M main
-git remote add origin git@github.com:kb1907/docker-demo.git
 git push -u origin main
 ```
 Changes automaticaly reflect in the web page
