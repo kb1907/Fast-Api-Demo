@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 import pytest
-from app import predict
+
 
 my_dict2 = {'Age': 68,
  'RestingBP': 150,
@@ -14,4 +14,6 @@ my_dict2 = {'Age': 68,
 my_data= pd.DataFrame([my_dict2])
 
 def test_predict():
-    assert 1==predict(my_data)
+    model = pickle.load(open('catboost_model-2.pkl', 'rb'))
+    prediction = model.predict(my_data)
+    assert prediction==1
