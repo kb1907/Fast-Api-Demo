@@ -56,3 +56,6 @@ Changes automaticaly reflect in the web page
 uvicorn app:app --reload
 ```
 Add test file
+
+![Screen Shot 2022-06-15 at 5 32 21 AM](https://user-images.githubusercontent.com/51021282/173724205-16a3d359-0265-4d5f-b542-c5fd1149c336.png)
+
