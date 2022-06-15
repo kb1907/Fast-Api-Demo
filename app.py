@@ -10,7 +10,7 @@ async def root():
     return {"message": "Prediction"}
 
 @app.get("/predict")
-def predict(Age:int, RestingBP:int, Cholesterol:int,Oldpeak:float,FastingBS:int,MaxHR:int):
+async def predict(Age:int, RestingBP:int, Cholesterol:int,Oldpeak:float,FastingBS:int,MaxHR:int):
     model = pickle.load(open('catboost_model-2.pkl', 'rb'))
     prediction = model.predict([[Age, RestingBP, Cholesterol, Oldpeak, FastingBS,MaxHR]])
     if prediction == 0:
