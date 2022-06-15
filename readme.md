@@ -3,6 +3,9 @@
 # Fast-Api-Demo
 Fast Api demo folder for MLOPS 2022 Data Scientist Trainees and DS Aspirants.
 
+![Fast-Api](https://user-images.githubusercontent.com/51021282/173723582-bd046c0f-2c32-43ca-9aa9-82b6005eb819.png)
+
+
 New environment
 
 ```bash
