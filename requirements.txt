@@ -2,3 +2,4 @@ catboost
 fastapi
 uvicorn
 pytest
+flake8
