@@ -1,5 +1,6 @@
-# Fast-Api-Demo
+[![Python application](https://github.com/kb1907/Fast-Api-Demo/actions/workflows/Fast-Api.yaml/badge.svg)](https://github.com/kb1907/Fast-Api-Demo/actions/workflows/Fast-Api.yaml)
 
+# Fast-Api-Demo
 Fast Api demo folder for MLOPS 2022 Data Scientist Trainees and DS Aspirants.
 
 New environment
